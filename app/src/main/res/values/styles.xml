@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorinter</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorpurpleversi</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppTheme.noActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorinter</item>
+        <item name="colorPrimaryDark">@color/colorpurpleversi</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="buttonstyle1" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorinter</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
+<!--    <style name="AppTheme.AppBarOverlay">style1</style>-->
+
+<!--    <style name="AppTheme.PopupOverlay">style2popurley</style>-->
+
+    <style name="MyProgressBarTwo" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="colorButtonNormal">#f50057</item>
+        <item name="colorControlActivated">#33691e</item>
+        <item name="colorControlHighlight">#ff6d00</item>
+        <item name="android:progressDrawable">@drawable/custom_progrebar</item>
+        <item name="android:minWidth">200dp</item>
+    </style>
+
+
+</resources>

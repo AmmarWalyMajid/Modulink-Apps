@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ModuLink</string>
+    <string-array name="tahun">
+        <item>2019/2020</item>
+        <item>2020/2021</item>
+
+    </string-array>
+    <string-array name="semester">
+        <item>Genap</item>
+        <item>Ganjil</item>
+
+    </string-array>
+    <string-array name="prodi">
+        <item>D3 Informatics Management</item>
+        <item>D3 Tehnik Informatics</item>
+        <item>S1 Informatika</item>
+        <item>S1 Teknologi Informasi</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Modul Belum Di Upload</string>
+    <string name="Copyright_Anakamuda">Copyright_anakmuda</string>
+    <string name="NIM">Enter NIM</string>
+    <string name="pasword">Enter Password</string>
+    <string name="login">login</string>
+    <string name="keterangan">Enter student ID and password</string>
+    <string name="search">search</string>
+    <string name="profile">Profile</string>
+    <string name="_2020">2020</string>
+    <string name="logout">Logout</string>
+    <string name="ammar_waly_majid">Ammar Waly Majid</string>
+    <string name="ammar_ma_student_amikom_ac_id">ammar.ma@student.amikom.ac.id</string>
+    <string name="todo">TODO</string>
+</resources>

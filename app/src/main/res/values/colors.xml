@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#520053</color>
+    <color name="colorblack">#000000</color>
+    <color name="colorinter">#520053</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="coloryellowdark">#FB960A</color>
+    <color name="colorpurpleversi">#600061</color>
+    <color name="colorpuroletransparan">#20600061</color>
+    <color name="bluelink">#008DFD</color>
+</resources>

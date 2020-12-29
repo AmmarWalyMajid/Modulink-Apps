@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "205065794198",
+    "firebase_url": "https://modulink-f0749.firebaseio.com",
+    "project_id": "modulink-f0749",
+    "storage_bucket": "modulink-f0749.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205065794198:android:38eebed1a3bc2fd52308b7",
+        "android_client_info": {
+          "package_name": "com.ammar.modulink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205065794198-olojv9b00dbtmo6a2fivh61u0bs8djnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ammar.modulink",
+            "certificate_hash": "ad14c138a2af8946ca44be36c9b869a48c6cb988"
+          }
+        },
+        {
+          "client_id": "205065794198-cl1hejq2rdn868feuciib374ht9o7kn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh0g0zUVABQ8gpUj-sXz5PgvAIMBTn5J0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205065794198-cl1hejq2rdn868feuciib374ht9o7kn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
