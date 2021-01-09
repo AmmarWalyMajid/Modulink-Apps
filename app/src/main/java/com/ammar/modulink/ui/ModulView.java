@@ -18,9 +18,5 @@ public class ModulView extends AppCompatActivity {
 
         book=findViewById(R.id.pdf1);
         book.fromAsset("inputcontrols.pdf").load();
-
-
-
-
     }
 }

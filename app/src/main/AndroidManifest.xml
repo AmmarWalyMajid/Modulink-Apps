@@ -13,7 +13,7 @@
         <activity android:name=".ui.ProfilActivty" />
         <activity android:name=".ui.DosenActivity"/>
         <activity android:name=".ui.LoginActivity" />
-        <activity android:name=".ui.MainScreen">
+        <activity android:name=".ui.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

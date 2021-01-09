@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/pageversimodulink"
-    tools:context=".ui.MainScreen">
+    tools:context=".ui.SplashActivity">
 
     <ImageView
         android:id="@+id/img_icon"
@@ -33,17 +33,6 @@
         android:textSize="10sp"
         android:textColor="@color/colorwhite"/>
 
-        <ImageView
-            android:paddingTop="6dp"
-            android:layout_width="20dp"
-            android:layout_height="25dp"
-            android:src="@drawable/copyright"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/_2020"
-            android:textColor="@color/colorwhite"/>
     </LinearLayout>
 
     <ProgressBar
@@ -55,7 +44,5 @@
         android:indeterminateDrawable="@drawable/ic_progrebar_curcle"
         style="?android:attr/progressBarStyle"
         android:layout_alignParentBottom="true"/>
-
-
 
 </RelativeLayout>

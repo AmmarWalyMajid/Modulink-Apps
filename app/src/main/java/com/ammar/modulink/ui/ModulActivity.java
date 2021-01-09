@@ -9,22 +9,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.ammar.modulink.fragment.BlankFragment;
 import com.ammar.modulink.fragment.d3informatika;
 import com.ammar.modulink.fragment.d3management;
 import com.ammar.modulink.R;
 
-import java.util.ArrayList;
-
 
 public class ModulActivity extends AppCompatActivity {
 
-    private ArrayList<String> mydata;
 
     Spinner spinner;
     d3informatika fragmentData;
@@ -43,7 +38,7 @@ public class ModulActivity extends AppCompatActivity {
         fragmentData1=new d3management();
         blankFragment=new BlankFragment();
 
-        toolbar=(Toolbar)findViewById(R.id.toolbardeskripsi);
+        toolbar=findViewById(R.id.toolbardeskripsi);
         setSupportActionBar(toolbar);
 
         //SETtexttitle toolbar

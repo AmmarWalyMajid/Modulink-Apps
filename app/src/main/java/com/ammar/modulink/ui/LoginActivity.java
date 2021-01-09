@@ -1,6 +1,5 @@
 package com.ammar.modulink.ui;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -30,18 +29,18 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+
         nim=findViewById(R.id.et_nim);
         password=findViewById(R.id.et_password);
         sharedPrefences = new SharedPrefences(this);
         progressBar = findViewById(R.id.progresbarlogin);
-
 
         ImageButton login = findViewById(R.id.btn_login);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 login();
-
             }
         });
     }
@@ -74,14 +73,10 @@ public class LoginActivity extends AppCompatActivity {
                         startActivity(i);
                     }else {
                         progressBar.setVisibility(View.GONE);
-                        Toast.makeText(LoginActivity.this, "username dan password salah :)", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LoginActivity.this, "Failed to login,check email and password", Toast.LENGTH_SHORT).show();
                     }
                 }
-            }, 3000);
+            }, 3000L);
         }
     }
-
-
-
-
 }

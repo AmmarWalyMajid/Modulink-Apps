@@ -13,11 +13,13 @@
             android:layout_height="30dp"
             android:background="@color/colorAccent"
             app:popupTheme="@style/AppTheme.PopupOverlay">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 tools:text="Deskripsi"
+                android:layout_marginEnd="15dp"
                 android:textColor="@color/colorwhite"
                 android:id="@+id/toolbar_text"
                 style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>

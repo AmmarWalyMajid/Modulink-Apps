@@ -88,7 +88,7 @@ public class teknologiinformasi extends Fragment {
             case  "Adrian, MT":
                 break;
 
-            case "Dewi Anisa Istiqomah, S.Pd., M.Cs":
+            case "Ganjar Widiatmansyah, S. Kom, M. Eng":
                 break;
 
         }

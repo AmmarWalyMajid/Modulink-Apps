@@ -67,7 +67,7 @@ public class DosenActivity extends AppCompatActivity {
                 "Aditya Maulana Hasymi, S.IP., M.A",
                 "Aditya Rizki Yudiantika, ST, M.Eng",
                 "Adrian, MT",
-                "Dewi Anisa Istiqomah, S.Pd., M.Cs"
+                "Ganjar Widiatmansyah, S. Kom, M. Eng"
         };
         InfoDosen =new String[]{
                 "Dosen",
